@@ -1,0 +1,49 @@
+.hero-section {
+    background-image: url(../images/coffee-mugs-img.png);
+    background-repeat: no-repeat;
+    background-size: 1380px 530px;
+    background-position: 100%;
+}
+.coffee__mugs-wrapper {
+    width: 793px;
+    padding: 159px 73.5px;
+    text-align: center;
+}
+.coffee__mugs-best-place {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: $--text-color;
+}
+.coffee__mugs-title {
+    margin-top: 10px;
+    font-family: Karla;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 60px;
+    color: $--text-color;
+}
+.coffee__mugs-text {
+    margin-top: 10px;
+    font-family: Karla;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    color: $--text-color;
+}
+.coffee__mugs-btn {
+    margin-top: 50px;
+  /*   width: 231px; */
+    padding: 0 24px;
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: $bg--text-clr;
+    border: none;
+}
+/* hero section start */

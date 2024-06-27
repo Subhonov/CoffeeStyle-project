@@ -1,0 +1,71 @@
+/* magazine section start */
+.magazine-section {
+    padding-bottom: 133px;
+  }
+  .magazine__wrapper-title {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #1D1F2E;
+    text-align: center;
+  }
+  .magazine__content {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .magazine__content-images {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .magazine__cart-item + .magazine__cart-item{
+    margin-top: 18px;
+  }
+  .magazine__content-information {
+    width: 460px;
+  }
+  .information__wrap-offer {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #1D1F2E;
+  }
+  .information__wrap-subtitle {
+    margin-top: 14px;
+    font-family: Karla;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #1D1F2E;
+  }
+  .information__wrap-text {
+    margin-top: 15px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2E;
+  }
+  .information__wrap-btn {
+    width: 173px;
+    padding: 9px 24px;
+    margin-top: 25px;
+    font-family: Karla;
+    font-size: 12px;
+    text-align: center  ;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    background-color:#1D1F2E;
+    
+  }
+  /* magazine section end */

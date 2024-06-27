@@ -1,0 +1,75 @@
+/* featured section start */
+.featured-section {
+    padding-bottom: 104px;
+  }
+  .featured__wrap{
+    text-align: center;
+  }
+  .featured__wrap-featured-mugs {
+    width: 165px;
+    font-family: Karla;
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+      &::before{
+        content: "";
+        width: 30px;
+        height: 1px;
+        background-color: #ECDFDB;
+        position: absolute;
+        right: 0;
+        left: -45px;
+        top: 7px;
+      }  
+      &::after{
+        content: "";
+        width: 30px;
+        height: 1px;
+        background-color: #ECDFDB;
+        position: absolute;
+        left: 120px;
+        right: 0;
+        top: 7px;
+      }
+  }
+  .featured__wrap-list {
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .coffee__type-pink {
+    margin-top: 35px;
+    display: block;
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;  
+  }
+  .coffee__type-price {
+    margin-top: 5px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+  }
+  .coffee__type-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .coffee__type-old-price {
+    margin-top: 5px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: line-through;
+    color: #8C8C91;
+  }
+  /* featured section end */
